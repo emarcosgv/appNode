@@ -5,6 +5,8 @@ controller.index = (req, res) => {
 };
 controller.home = (req, res) => {
     res.render('main',{layout:'home'});
+    // res.render('home');
+
 };
 
 module.exports = controller;
