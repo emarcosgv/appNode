@@ -4,15 +4,7 @@ controller.index = (req, res) => {
     res.send("Hola Express")
 };
 controller.home = (req, res) => {
-    res.render('home')
+    res.render('main',{layout:'home'});
 };
 
 module.exports = controller;
-
-
-//
-// app.get('/', (req, res) => {
-//     res.render('home');
-// });
-//
-// app.listen(3000);
